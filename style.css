@@ -1,0 +1,185 @@
+body,
+body {
+    background-color: #2c3147;
+}
+
+#top {
+    background: url(jeremy-bishop-Gx879ThpqWQ-unsplash.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+::-webkit-scrollbar {
+    background-color: #de6615;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+    background-color: #2c3147;
+}
+
+.navbar-brand {
+    font-family: 'Russo One', sans-serif;
+}
+
+nav {
+    background-image: url(http://localhost:63342/ex1/pics/summer-colors-wave-png.png);
+    background-color: #2c3147;
+}
+
+#chosseImage {
+    float: right;
+    background-color: #2c3147;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    margin: 0 70px;
+}
+
+#navBut1 {
+    margin-left: 85px;
+}
+
+#navBut1, #navBut2, #navBut3 {
+    font-size: 1.5rem;
+}
+
+#headTexts {
+    color: #ffffff;
+}
+
+hr {
+    color: #de6615;
+    border-top: 2.5px solid #de6615;
+    border-bottom: 2.5px solid #de6615;
+}
+
+h1 {
+    font-family: 'Russo One', sans-serif;
+    text-transform: capitalize;
+    font-size: 6rem;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    margin-bottom: 10px;
+}
+h1:hover {
+    color: #de6615;
+    -webkit-text-stroke-color: #2c3147;
+    cursor: pointer;
+}
+
+h5 {
+    text-transform: uppercase;
+    font-family: 'Noto Sans TC', sans-serif;
+    letter-spacing: 3px;
+    margin-top: 20px;
+}
+
+.buffer {
+    height: 15rem;
+}
+
+.smallBuff {
+    height: 3rem;
+}
+
+#discoverTxt {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.btn-secondary {
+    margin: 10px;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #de6615;
+}
+
+#jsSection, #htmlSection, #cssSection {
+    position: relative;
+}
+
+#jsSection:hover .overlay {
+    opacity: 0.85;
+}
+#htmlSection:hover .overlay {
+    opacity: 0.85;
+}
+#cssSection:hover .overlay {
+    opacity: 0.85;
+}
+
+.text {
+    color: white;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+#picButtons {
+    background: url(joshua-woroniecki-lzh3hPtJz9c-unsplash.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    justify-content: center;
+}
+
+#footerText {
+    color: white;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 1.2rem;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+#registerButton {
+    margin-bottom: 50px;
+    float: right;
+}
+#registerButton:hover {
+    transform: scale(1.2);
+    color: #2c3147;
+    background-color: #de6615;
+}
+
+#rbTxt {
+    font-family: 'Noto Sans TC', sans-serif;
+    letter-spacing: 2px;
+}
